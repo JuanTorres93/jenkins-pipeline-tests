@@ -6,6 +6,8 @@ echo "**************************"
 
 WORKSPACE=$(HOME)/workspace/pipeline-docker-maven
 
+echo "WORKSPACE: $WORKSPACE"
+
 docker run --rm -w /app \
     --name maven \
     --ulimit nofile=122880:122880 \
