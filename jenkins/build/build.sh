@@ -4,7 +4,7 @@ echo "**************************"
 echo "Building the Maven project"
 echo "**************************"
 
-WORKSPACE=/var/jenkins_home/workspace/pipeline-docker-maven/simple-java-maven-app
+WORKSPACE=/home/juan/hdd/Cursos/Jenkins/jenkins-data/jenkins_home/workspace/pipeline-docker-maven
 
 echo "WORKSPACE: $WORKSPACE"
 
