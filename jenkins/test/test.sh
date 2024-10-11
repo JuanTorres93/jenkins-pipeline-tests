@@ -4,7 +4,7 @@ echo "**************************"
 echo "Testing the Maven project"
 echo "**************************"
 
-WORKSPACE=$(HOME)/workspace/pipeline-docker-maven
+WORKSPACE=/home/juan/hdd/Cursos/Jenkins/jenkins-data/jenkins_home/workspace/pipeline-docker-maven
 
 docker run --rm -w /app \
     --name maven \
